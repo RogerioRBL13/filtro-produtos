@@ -26,12 +26,6 @@ document.querySelector('.filtros').insertAdjacentHTML('afterend', allProducts);
 });
 
 
-//Filtrando Produtos
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   mostrarProdutosNatela(products); 
-// });
-
 //Busca os elementos na tela: botão 'Buscar', input e select
 const botaoBuscarProdutosSelecionados = document.querySelector(".btn-buscar-produtos");
 botaoBuscarProdutosSelecionados.addEventListener("click", () =>{
