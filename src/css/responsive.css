@@ -1,0 +1,29 @@
+@media(max-width: 1024px) {
+    .cabecalho {
+	gap: 30px;
+	padding: 30px;
+    font-size: 10px;
+}
+
+.cabecalho img {
+    width: 100px;
+}
+    
+    .container {
+        padding: 20px;
+    }
+
+    .container .filtros {
+    height: 230px;
+    flex-direction: column;
+	
+}
+
+.container .filtros .input-buscar-produtos,  
+.container .filtros .filtrar-categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+}

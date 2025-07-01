@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro Produtos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <header class="cabecalho">
+            <img src="./src/images/logo-dev-em-dobro.png" alt="Logo Dev em Dobro">
+            <h1 class="titulo-site">Loja Dev em Dobro</h1>
+    </header>
+    <main class="container">
+        <section class="filtros">
+            <div class="input-buscar-produtos">
+                <label for="buscar-produto">Busca rápida</label>
+                <input type="text" id="buscar-produto" class="buscar-produto" placeholder="Ex: camiseta">
+            </div>
+            <div class="filtrar-categoria">
+                <label for="categoria">Categoria</label>
+                <select name="categoria" id="tipo-de-produto" class="categoria">
+                    <option value="">Selecione um produto</option>
+                    <option value="camiseta">camiseta</option>
+                    <option value="caneca">caneca</option>
+                </select>
+                <button class="btn-buscar-produtos">Buscar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+            <span class="titulo-site">@2025 - Todos os direitos reservados.</span>
+    </footer>
+    <script type="module" src="./src/js/index.js"></script>
+</body>
+</html>
